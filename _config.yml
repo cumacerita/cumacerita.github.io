@@ -1,11 +1,11 @@
-title: Zen
+title: Cuma Cerita
 description: Vini Vidi Vici
 
-url: "http://muhammadzaini.com"
+url: "http://cumacerita.github.io"
 gambar: "http://aozoraworld.files.wordpress.com/2013/05/oreki-x-chitanda.jpg"
 twitter_username: mzaini30
 
-lokasi: "/home/blog (git)"
+lokasi: "/home/cuma cerita (git)"
 permalink: "/:year/:month/:day/:title.html"
 
 gems:

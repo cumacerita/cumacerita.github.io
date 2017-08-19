@@ -12,7 +12,7 @@
     Initialisation
     ========================================================================== */
 
-var q, jsonFeedUrl = "http://muhammadzaini.com/feed.json",
+var q, jsonFeedUrl = "http://cumacerita.github.io/feed.json",
     $searchForm = $("[data-search-form]"),
     $searchInput = $("[data-search-input]"),
     $resultTemplate = $("#search-result"),

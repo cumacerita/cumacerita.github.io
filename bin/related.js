@@ -34,6 +34,6 @@ $target = $(".row .col-sm-4")
 
 for (n = 0; n < posts2.length; n++) {
     $target.eq(n).find("a").attr("href", posts2[n].link)
-    $target.eq(n).find("img").attr("src", "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=400&url=" + encodeURIComponent(posts2[n].gambar))
+    $target.eq(n).find("img").attr("src", posts2[n].gambar)
     $target.eq(n).find("p").text(posts2[n].judul)
 }

@@ -7,7 +7,7 @@ layout: default
 </script>
 <link rel="stylesheet" type="text/css" href="/bin/post.css">
 <div class="panel panel-default">
-    <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=600&url={% if page.gambar %}{{ page.gambar | replace: '&', '%26' | replace: '=', '%3D' }}{% else %}{{ site.gambar | replace: '&', '%26' | replace: '=', '%3D' }}{% endif %}" width="100%">
+    <img src="{% if page.gambar %}{{ page.gambar }}{% else %}{{ site.gambar }}{% endif %}" width="100%">
     <div class="panel-body">
         <center>
             <h1>{{ page.title }}</h1>

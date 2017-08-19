@@ -21,9 +21,9 @@
 {% endif %}
 
 {% if page.gambar %}
-<meta content="{{ page.gambar | replace: '&', '%26' | replace: '=', '%3D' }}" property="og:image">
+<meta content="{{ page.gambar }}" property="og:image">
 {% else %}
-<meta content="{{ site.gambar | replace: '&', '%26' | replace: '=', '%3D' }}" property="og:image">
+<meta content="{{ site.gambar }}" property="og:image">
 {% endif %}
 
 <!-- twitter -->
@@ -53,7 +53,7 @@
 <meta content="@{{ site.twitter_username }}" name="twitter:creator">
 
 {% if page.gambar %}
-<meta content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=600&url={{ page.gambar | replace: '&', '%26' | replace: '=', '%3D' }}" property="twitter:image"> 
+<meta content="{{ page.gambar }}" property="twitter:image"> 
 {% else %}
-<meta content="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=600&url={{ site.gambar | replace: '&', '%26' | replace: '=', '%3D' }}" property="twitter:image"> 
+<meta content="{{ site.gambar }}" property="twitter:image"> 
 {% endif %}
